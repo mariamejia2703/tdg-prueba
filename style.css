@@ -175,6 +175,31 @@ footer{
     font-weight: 600;
 }
 
+.boton_enviar{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    color: #000;
+}
+
+.enviar{
+    display: inline-block;
+    margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border: 2px solid #a19cd1;
+    border-radius: 25%;
+    text-align: center;
+    color: #b46c30;
+    font-size: large;
+    font-weight: bold;
+}
+
+.enviar:hover{
+    background-color: #ddb89a;
+    color: #b46c30;
+}
+
 .social-media{
     width: 50%;
     display: flex;
